@@ -11,7 +11,7 @@ if __name__ == '__main__' :
 
 # ---------------------- ROUTES --------------------------
 # main tab
-@app.route("/main", method = ['GET', 'POST'])
+@app.route("/main")
 def main():
     return render_template('main.html', title='Main')
 
